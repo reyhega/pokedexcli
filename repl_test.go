@@ -24,9 +24,9 @@ func TestCleanInput(t *testing.T) {
 		input: "hello  world",
 		expected: []string{"hello", "world"},
 	},
-		"Simple":
+		"Upper case":
 	{
-		input: "hello world",
+		input: "HELLO wOrLd",
 		expected: []string{"hello", "world"},
 	},
 	}
